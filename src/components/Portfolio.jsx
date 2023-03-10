@@ -51,6 +51,8 @@ const Portfolio = () => {
         {
             id: 3,
             src: greysBan,
+            href: 'https://graysban.netlify.app/',
+            href1: 'https://github.com/Mickaelcor/GraysBan',
             style: 'flex items-center justify-around',
             child: (
                 <>
@@ -112,7 +114,7 @@ const Portfolio = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
                     {
-                        portfolios.map(({ id, src, href, child, style }) => (
+                        portfolios.map(({ id, src, href, href1, child, style }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img
                                     src={src}
@@ -127,7 +129,7 @@ const Portfolio = () => {
                                         <a href={href} target='_blank' rel='noreferrer' >Demo</a>
                                     </button>
                                     <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:text-sky-400 hover:scale-110'>
-                                        Code
+                                        <a href={href1} target='_blank' rel='noreferrer' >Code</a>
                                     </button>
                                 </div>
                             </div>
