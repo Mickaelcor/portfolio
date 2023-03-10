@@ -17,7 +17,7 @@ const Home = () => {
     }
 
     return (
-        <div name="acceuil" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
+        <div name="acceuil" className='w-full bg-gradient-to-b from-black via-black to-gray-800 pt-52 pb-60'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-7xl font-bold text-white'>Développeur web junior</h2>
@@ -50,7 +50,7 @@ const Home = () => {
                         </button>
                     </div>
                 </div>
-                <div>
+                <div className=' max-md:pt-12'>
                     <img
                         src={HeroImage}
                         alt="my profile"

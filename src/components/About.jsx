@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <div name="profil"
-            className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'
+            className='w-full bg-gradient-to-b from-gray-800 to-black text-white pb-12 pt-14'
         >
 
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
@@ -13,7 +13,7 @@ const About = () => {
                     </p>
                 </div>
 
-                <p className='text-xl mt-20'>
+                <p className='text-xl mt-14'>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit doloribus unde, exercitationem voluptates voluptatum ex quos esse est consectetur dolorum neque aliquam, veniam perspiciatis maxime iste facilis nisi ab quod architecto id nemo autem ut nam. Soluta voluptatibus, nostrum eaque magnam velit nam sint sunt adipisci repudiandae. Atque, vitae aspernatur.
                 </p>
 
