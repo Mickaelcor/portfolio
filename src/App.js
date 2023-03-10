@@ -1,6 +1,7 @@
 import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import Experience from "./components/Experience.jsx";
+import Footer from "./components/Footer.jsx";
 import Home from "./components/Home.jsx";
 import NavBar from "./components/NavBar.jsx";
 import Portfolio from "./components/Portfolio.jsx";
@@ -15,6 +16,7 @@ function App() {
       <Portfolio />
       <Experience />
       <Contact />
+      <Footer />
 
       <SocialLinks />
     </div>
