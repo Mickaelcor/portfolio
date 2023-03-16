@@ -13,14 +13,14 @@ const About = () => {
                     </p>
                 </div>
 
-                <p className='text-xl mt-14'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit doloribus unde, exercitationem voluptates voluptatum ex quos esse est consectetur dolorum neque aliquam, veniam perspiciatis maxime iste facilis nisi ab quod architecto id nemo autem ut nam. Soluta voluptatibus, nostrum eaque magnam velit nam sint sunt adipisci repudiandae. Atque, vitae aspernatur.
+                <p className='text-xl mt-14 text-gray-400'>
+                    Développeur web passionné et motivé qui a récemment effectué une reconversion professionnelle et obtenu le diplôme de Développeur Web et Web Mobile (DWWM). Cette formation intensive m'a permis d'acquérir une solide compréhension des technologies web modernes, notamment HTML, CSS, JavaScript, ainsi que des frameworks populaires tels que React et Tailwind.
                 </p>
 
                 <br />
 
-                <p className='text-xl'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa architecto, odit sapiente corrupti voluptatem in amet veniam debitis suscipit? Laudantium facere velit ad. Eum inventore maxime tenetur illo dolores aperiam quasi nostrum repellendus earum facere sunt sit nobis sapiente pariatur, quam ullam adipisci! Numquam maxime asperiores doloremque? Saepe, sint?
+                <p className='text-xl text-gray-400'>
+                    En travaillant sur des projets concrets, j'ai développé des compétences pratiques en conception de sites web, en intégration, en développement front-end et back-end, ainsi qu'en gestion de bases de données. Je suis fier de mon parcours de reconversion et je suis prêt à mettre mes connaissances et mon expertise au service des entreprises pour les aider à créer des sites web dynamiques et efficaces pour leurs clients.
                 </p>
             </div>
 
